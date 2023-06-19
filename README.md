@@ -5,7 +5,7 @@ Further details can be found in Pellegrini and Cignarella (2020). The data and r
 
 LeFFI is distributed under a Creative Commons By-SA 3.0 licence, as the GLAFF-IT lexicon on which it is based.
 
-# REFERENCES
+# References
 
 Pier Marco Bertinetto, Cristina Burani, Alessandro Laudanna, Lucia Marconi, Daniela Ratti, Claudia Rolando, and Anna Maria Thornton. 2005. CoLFIS (Corpus e Lessico di Frequenza dell’Italiano Scritto).
 
