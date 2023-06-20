@@ -9,7 +9,7 @@ PST.PTCP.M.PL,prf.pass.ptcp.acc.m.pl,PST-PTCP,no distinction for gender-number i
 PST.PTCP.F.PL,prf.pass.ptcp.acc.f.pl,PST-PTCP,no distinction for gender-number in ODRVM
 IMP.2SG,prs.act.imp.2.sg,IMP~2SG,
 IMP.1PL,prs.act.sbjv.1.pl,PRS-SBJV~1PL,cf. Rohlfs (p. 353)
-IMP.2PL,prs.act.imp.2.pl,IMP~2PL,it might also come from prs.act.ind.2.pl but it is impossible to know for sure according to Rohlfs (p. 352, fn. 1)
+IMP.2PL,prs.act.imp.2.pl,IMP~2PL,it might also come from prs.act.ind.2.pl but it is impossible to know for sure according to Rohlfs (p. 352 fn. 1)
 PRS.IND.1SG,prs.act.ind.1.sg,PRS-IND~1SG,
 PRS.IND.2SG,prs.act.ind.2.sg,PRS-IND~2SG,
 PRS.IND.3SG,prs.act.ind.3.sg,PRS-IND~3SG,
