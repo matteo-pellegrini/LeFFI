@@ -1,43 +1,43 @@
-lexeme,frequency,cognate_id,language_of_etymon,is_suppletive,cognacy_comment,Cognateset_ID_ODRVM,Etymon_in_ODRVM,etymon_DeMauro
+lexeme_id,frequency,cognate_id,language_of_etymon,is_suppletive,cognacy_comment,Cognateset_ID_ODRVM,Etymon_in_ODRVM,etymon_DeMauro
 essere,54838,esse,,1,,esse~stare,ESSE / STARE,"1037-89; dal lat. *essere, da esse di orig. indoeuropea."
 fare,15702,facere,,,,facere,FACERE,"1219; lat. facĕre, con influsso analogico di dare, stare nella coniug."
-avere,11663,habere,,,,habere,HABERE,"1211; lat. habēre."
+avere,11663,habere,,,,habere,HABERE,1211; lat. habēre.
 potere,11035,posse,,,,posse,POSSE,"av. 1237; lat. *pŏtēre, var. di pŏsse."
-dire,9257,dicere,,,,dicere,DICERE,"1211; lat. dīcĕre."
+dire,9257,dicere,,,,dicere,DICERE,1211; lat. dīcĕre.
 dovere,6912,debere,,,,debere,DEBERE,"1211; lat. dēbēre, comp. di de- “via da” e habēre “1avere”."
 volere,5060,uelle,,,,uelle,UELLE,"1219; lat. *vŏlēre, var. di vĕlle."
 andare,4400,ambulare,,1,,ambulare~uadere,AMBULARE / UADERE,"1219; etim. incerta, forse lat. ambŭlāre “camminare” o *ambitāre, der. di ambīre “andare intorno” con inserzione, per alcune persone, di vadĕre “1andare”."
-stare,4391,stare,,,,,,"1211; lat. stāre."
-vedere,4313,uidere,,,,uidere,UIDERE,"1295; dal lat. vĭdēre."
-sapere,4210,sapere,,,,sapere,SAPERE,"960; lat. sapĕre propr. “aver sapore”."
-dare,3745,dare,,,,dare,DARE,"2ª metà XII sec; lat. dăre."
+stare,4391,stare,,,,,,1211; lat. stāre.
+vedere,4313,uidere,,,,uidere,UIDERE,1295; dal lat. vĭdēre.
+sapere,4210,sapere,,,,sapere,SAPERE,960; lat. sapĕre propr. “aver sapore”.
+dare,3745,dare,,,,dare,DARE,2ª metà XII sec; lat. dăre.
 trovare,3267,stare,,,,stare,STARE,"1294; etim. incerta, forse lat. *trŏpāre “comporre un’aria”."
-mettere,3090,mittere,,,,,,"sec. XIII; lat. mĭttĕre “mandare”."
+mettere,3090,mittere,,,,,,sec. XIII; lat. mĭttĕre “mandare”.
 parlare,2969,*parabolare,,,,,,"1ª metà XIII sec; lat. *parabŏlāre, der. di parabola “1parabola”."
 arrivare,2614,*arripare,,,,,,"ca. 1300; lat. *arrĭpāre, v. anche 1riva."
 pensare,2602,pensare,,,,,,"av. 1250; lat. pēnsāre propr. “pesare”, intens. di pendĕre “pesare”."
 sembrare,2447,similare,,,,,,"av. 1250; dal provenz. ant. semblar, dal lat. tardo similāre “somigliare”, der. di similis “simile”."
-prendere,2446,prehendere,,,,,,"1158; lat. prehĕndĕre."
+prendere,2446,prehendere,,,,,,1158; lat. prehĕndĕre.
 chiedere,2395,quaerere,,,,,,"1278; lat. quaerĕre, con dissimilazione."
 lasciare,2292,laxare,,,,,,"av. 1250 nell'accez. 3; lat. laxāre “allargare, sciogliere”, der. di laxus “allentato, largo”."
-sentire,2236,sentire,,,,,,"fine XII sec; lat. sĕntīre."
-portare,2158,portare,,,,portare,PORTARE,"fine XII sec; lat. pŏrtāre."
-riuscire,2050,,,,later formation,,,"1313-19 nell'accez. 2; der. di uscire con ri-."
-venire,1977,uenire,,,,uenire,UENIRE,"1219 nell'accez. 2a; lat. vĕnīre."
+sentire,2236,sentire,,,,,,fine XII sec; lat. sĕntīre.
+portare,2158,portare,,,,portare,PORTARE,fine XII sec; lat. pŏrtāre.
+riuscire,2050,,,,later formation,,,1313-19 nell'accez. 2; der. di uscire con ri-.
+venire,1977,uenire,,,,uenire,UENIRE,1219 nell'accez. 2a; lat. vĕnīre.
 diventare,1974,*deventare,,,,,,"1282; lat. *deventāre, intens. di devenīre “divenire”."
 cercare,1875,circare,,,,,,"av. 1250; lat. tardo cĭrcāre “circondare, andare intorno”, der. di circa “intorno”."
 passare,1872,*passare,,,,,,"av. 1250; lat. *passāre, der. di passus “1passo”."
-vivere,1777,uiuere,,,,,,"av. 1294; lat. vīvĕre."
+vivere,1777,uiuere,,,,,,av. 1294; lat. vīvĕre.
 tornare,1650,tornare,,,,,,"1158; lat. tŏrnāre propr. “lavorare al tornio”, der. di tornus “tornio”; nell’accez. II 3 cfr. fr. tourner."
 rimanere,1607,remanere,,,,,,"fine XIII sec; dal lat. remanēre, comp. di re- con valore iter. e manēre “stare”."
-tenere,1605,tenere,,,,tenere,TENERE,"2ª metà XIII sec; lat. tĕnēre."
+tenere,1605,tenere,,,,tenere,TENERE,2ª metà XIII sec; lat. tĕnēre.
 spiegare,1597,explicare,,,,,,"1312; lat. explĭcāre, comp. di ex- con valore privat. e plicāre “piegare”."
 finire,1586,finire,,,,finire,FINIRE,"2ª metà XIII sec; lat. finīre, v. anche 1fine."
-capire,1560,capere,,,with change of inflection class,,,"sec. XIV; lat. capĕre con cambio di coniug."
+capire,1560,capere,,,with change of inflection class,,,sec. XIV; lat. capĕre con cambio di coniug.
 chiamare,1493,clamare,,,,,,"1219; lat. clamāre “gridare, proclamare”."
-credere,1484,credere,,,,credere,CREDERE,"2ª metà XIII sec; lat. crēdĕre."
+credere,1484,credere,,,,credere,CREDERE,2ª metà XIII sec; lat. crēdĕre.
 cominciare,1427,*comintiare,,,,,,"1ª metà XIII sec; lat. *comintiāre, comp. di con- “assieme, con” e initiāre “iniziare”."
-scrivere,1419,scribere,,,,,,"1219; lat. scrībĕre."
+scrivere,1419,scribere,,,,,,1219; lat. scrībĕre.
 ricordare,1392,recordari,,,,,,"av. 1292; dal lat. recŏrdāri, comp. di re- “indietro” e cor, cordis “cuore”."
 continuare,1388,continuare,,,,,,"2ª metà XIII sec; dal lat. contĭnŭāre, v. anche continuo."
 perdere,1386,perdere,,,,perdere,PERDERE,"av. 1250; lat. pĕrdĕre “mandare in rovina, 1consumare”."
@@ -49,68 +49,68 @@ rendere,1295,reddere,,,,,,"1219; lat. rĕddĕre, con influsso di prendere, spend
 rispondere,1289,respondere,,,,,,"1219; lat. tardo respŏndĕre, var. di respondēre comp. di re- “di nuovo” e spondēre “promettere”."
 presentare,1281,praesentare,,,,,,"2ª metà XII sec; dal lat. praesĕntāre, v. anche presente."
 uscire,1267,exire,,,,exire,EXIRE,"av. 1313; lat. exīre, comp. di ex- “fuori, 1da” e īre “1andare”."
-raccontare,1237,,,,later formation,,,"fine XIII sec; der. di contare con ra-."
+raccontare,1237,,,,later formation,,,fine XIII sec; der. di contare con ra-.
 nascere,1169,nasci,,,,nasci,NASCI,"av. 1250; lat. *nascere, var. di nasci."
 entrare,1149,intrare,,,,,,"ca. 1284 nell'accez. 4; lat. ĭntrāre, der. di *interus “intero”."
 trattare,1135,tractare,,,,,,"av. 1292; lat. tractāre, intens. di trahĕre “trarre, tirare”."
 bastare,1132,,,,,,,"1253; etim. incerta, forse cfr. gr. bastázō “sopporto”."
 seguire,1128,sequi,,,,,,"fine XIII sec; lat. *sĕquīre, var. di sĕqui."
-lavorare,1108,laborare,,,,,,"sec. XIII; dal lat. labōrāre."
-aprire,1080,aperire,,,,,,"av. 1294; lat. apĕrīre."
+lavorare,1108,laborare,,,,,,sec. XIII; dal lat. labōrāre.
+aprire,1080,aperire,,,,,,av. 1294; lat. apĕrīre.
 cambiare,979,cambiare,,,,,,"1255; lat. tardo cambĭāre, di orig. gallica."
 giocare,979,iocari,,,,,,"2ª metà XIII sec; lat. *iŏcāre, var. di iocāri, v. anche gioco."
 usare,952,usare,,,,,,"1305-06 nell'accez. 6; dal lat. tardo ūsāre, v. anche 1uso."
-vincere,952,uincere,,,,,,"2ª metà XIII sec; dal lat. vĭncĕre."
+vincere,952,uincere,,,,,,2ª metà XIII sec; dal lat. vĭncĕre.
 scegliere,931,*exeligere,,,,,,"av. 1294; lat. *exēlĭgĕre, comp. di ex- con valore intens. ed eligĕre."
-bisognare,921,,,,later formation,,,"av. 1294; der. di bisogno con 1-are."
+bisognare,921,,,,later formation,,,av. 1294; der. di bisogno con 1-are.
 esistere,917,exsistere,,,,,,"av. 1685; dal lat. exsĭstĕre, comp. di ex- “fuori, da” e sistĕre “stare”."
-servire,915,seruire,,,,,,"av. 1250; lat. sĕrvīre; nell’accez. 6b cfr. ingl. (to) serve."
+servire,915,seruire,,,,,,av. 1250; lat. sĕrvīre; nell’accez. 6b cfr. ingl. (to) serve.
 aspettare,913,expectare,,,,,,"2ª metà XIII sec; lat. expĕctāre, der. di spectāre “guardare” con cambio di pref."
 considerare,900,considerare,,,,,,"2ª metà XIII sec; dal lat. consĭdĕrāre propr. “osservare gli astri per trarne gli auspici”, comp. di con- “assieme, con” e sidus, -eris “stella”."
-raggiungere,892,,,,later formation,,,"1374; der. di aggiungere con ra-."
+raggiungere,892,,,,later formation,,,1374; der. di aggiungere con ra-.
 morire,870,mori,,,,mori,MORI,"1219; lat. *mŏrīre, var. di mŏri."
 aggiungere,869,adiungere,,,,,,"av. 1294; lat. adiŭngĕre, v. anche giungere."
 ottenere,838,obtinere,,,,,,"1348-53; dal lat. obtĭnēre propr. “tenere saldamente”, v. anche tenere."
-piacere,836,placere,,,,placere,PLACERE,"sec. XII; lat. placēre."
-leggere,831,legere,,,,,,"1219; lat. lĕgĕre propr. “raccogliere”."
-scoprire,826,,,,later formation,,,"sec. XIII; der. di coprire con s-."
+piacere,836,placere,,,,placere,PLACERE,sec. XII; lat. placēre.
+leggere,831,legere,,,,,,1219; lat. lĕgĕre propr. “raccogliere”.
+scoprire,826,,,,later formation,,,sec. XIII; der. di coprire con s-.
 prevedere,825,praeuidere,,,,,,"av. 1292; dal lat. praevĭdēre, v. anche vedere."
 offrire,819,offerre,,,,,,"av. 1313-19; lat. *offerīre, var. di offĕrre, comp. di ob- “2a, 4verso” e fĕrre “portare”."
-amare,818,amare,,,,,,"in. XIII sec.; lat. amāre."
+amare,818,amare,,,,,,in. XIII sec.; lat. amāre.
 sostenere,807,sustinere,,,,,,"av. 1292; lat. sustĭnēre, v. anche tenere."
 pagare,806,pacare,,,,,,"1211; lat. pacāre “pacificare, quietare”, der. di pax, -acis “pace”, v. anche pacare, cfr. lat. mediev. pagāre."
-parere,766,parere,,,,parere_2,PARERE,"av. 1249; lat. parēre."
-mancare,759,,,,later formation,,,"av. 1313; der. di 1manco con 1-are."
-partire,757,partiri,,,,,,"av. 1243 nell'accez. 3; da 2partire."
+parere,766,parere,,,,parere_2,PARERE,av. 1249; lat. parēre.
+mancare,759,,,,later formation,,,av. 1313; der. di 1manco con 1-are.
+partire,757,partiri,,,,,,av. 1243 nell'accez. 3; da 2partire.
 chiudere,747,cludere,,,,,,"1304-08 nell'accez. 2a; lat. tardo clūdĕre, var. di claudĕre, sul tipo dei comp. includĕre, excludĕre."
 proporre,723,proponere,,,,,,"av. 1243; dal lat. propōnĕre, v. anche porre."
 provare,720,probare,,,,,,"av. 1250; lat. prŏbāre propr. “riconoscere buono”, der. di probus “1buono”."
-creare,717,creare,,,,,,"av. 1276; dal lat. crĕāre."
+creare,717,creare,,,,,,av. 1276; dal lat. crĕāre.
 succedere,694,succedere,,,,,,"av. 1313; dal lat. succēdĕre, comp. di sub- “sotto” e cedĕre “1andare”."
 uccidere,692,occidere,,,,,,"1304-08; lat. occīdĕre “abbattere a colpi”, comp. di ob- “1contro, 4verso” e caedĕre “tagliare, abbattere tagliando”."
 apparire,688,apparere,,,with change of inflection class,,,"av. 1294; lat. apparēre, comp. di ad- con valore raff. e parēre “mostrarsi”, con cambio di coniug."
 evitare,687,euitare,,,,,,"1483; dal lat. ēvĭtāre, comp. di e- con valore raff. e vitāre “evitare”."
 avvenire,686,aduenire,,,,,,"av. 1250; lat. advenīre, v. anche 1venire."
 ricevere,665,recipere,,,,,,"2ª metà XII sec; dal lat. recĭpĕre, v. anche recipere."
-correre,662,currere,,,,,,"2ª metà XII sec; lat. cŭrrĕre."
+correre,662,currere,,,,,,2ª metà XII sec; lat. cŭrrĕre.
 dimostrare,659,demonstrare,,,,,,"1ª metà XIII sec; lat. demōnstrāre, v. anche mostrare."
 incontrare,654,incontrare,,,,,,"2ª metà XII sec; lat. tardo incŏntrāre, v. anche 2incontro."
 rappresentare,648,repraesentare,,,,,,"1304-08; lat. repraesĕntāre, v. anche presentare."
 accadere,638,accidere,,,,,,"av. 1294; lat. *accadēre, var. di accidĕre."
 permettere,638,permettere,,,,,,"av. 1311; lat. permĭttĕre, comp. di per- con valore intens. e mittĕre “mandare, lasciar andare”."
-riguardare,635,,,,later formation,,,"av. 1313 nell'accez. 2; der. di guardare con ri-."
+riguardare,635,,,,later formation,,,av. 1313 nell'accez. 2; der. di guardare con ri-.
 fermare,632,firmare,,,,,,"2ª metà XIII sec; lat. fĭrmāre “assicurare”, v. anche 1fermo."
 accettare,631,acceptare,,,,,,"av. 1313; dal lat. accĕptāre, freq. di accipĕre."
-scendere,627,discendere,,,,,,"1ª metà XIII sec; da discendere con aferesi."
+scendere,627,discendere,,,,,,1ª metà XIII sec; da discendere con aferesi.
 aiutare,625,adiutare,,,,,,"2ª metà XIII sec; lat. adiutāre, der. di adiuvāre."
 realizzare,621,réalizer,French,,,,,"1759; dal fr. réalizer, der. del lat. mediev. realis “1reale”; nell’accez. 5 cfr. ingl. (to) realize."
 definire,610,definire,,,,,,"av. 1294; dal lat. definīre, comp. di de- con valore raff. e finis “confine”."
 costruire,605,construere,,,with change of inflection class,,,"av. 1321; dal lat. constrŭĕre, comp. di con- “assieme, con” e struĕre “edificare” con cambio di coniug."
 occupare,603,occupare,,,,,,"av. 1294; dal lat. ŏccŭpāre, comp. di ob- con valore raff. e capĕre “prendere”."
 trasformare,599,transformare,,,,,,"1348-53; dal lat. transfōrmāre, cfr. gr. metamorphízō “io trasformo”, v. anche formare."
-toccare,598,,,,,,,"av. 1250; prob. voce onom."
+toccare,598,,,,,,,av. 1250; prob. voce onom.
 costringere,587,constringere,,,,,,"2ª metà XIII sec; dal lat. constrĭngĕre, v. anche stringere."
-tentare,585,temptare,,,,,,"av. 1306 nell'accez. 3; lat. tĕmptāre."
+tentare,585,temptare,,,,,,av. 1306 nell'accez. 3; lat. tĕmptāre.
 affrontare,583,*affrontare,,,,,,"av. 1321; lat. *affrŏntāre, v. anche fronte."
 sperare,583,sperare,,,,,,"av. 1250; dal lat. spērāre, der. di spes “speranza”."
 dedicare,580,dedicare,,,,,,"av. 1374; dal lat. dēdĭcāre, comp. di de- con valore raff. e dicāre “dire solennemente, proclamare”."
@@ -118,46 +118,46 @@ superare,580,superare,,,,,,"av. 1348; dal lat. sŭpĕrāre, der. di superus “s
 affermare,576,affirmare,,,,,,"av. 1294; dal lat. affīrmāre, comp. di ad- “a, verso” e firmāre “consolidare”."
 comprendere,571,comprehendere,,,,,,"av. 1294; dal lat. comprehendĕre, v. anche prendere."
 annunciare,567,annuntiare,,,,,,"av. 1306; dal lat. annūntĭāre, comp. di ad- con valore raff. e nuntius “messaggero, messaggio”."
-lanciare,562,lanceare,,,,,,"sec. XIII; lat. tardo lancĕāre “scagliare la lancia”."
+lanciare,562,lanceare,,,,,,sec. XIII; lat. tardo lancĕāre “scagliare la lancia”.
 cadere,560,cadere,,,,cadere,CADERE,"av. 1257 nell'accez. 4; lat. *cadēre, var. di cadĕre."
 dichiarare,548,declarare,,,,,,"av. 1292; lat. declarāre, v. anche chiaro."
 preferire,546,praeferre,,,with change of inflection class,,,"sec. XIV; dal lat. praefĕrre, comp. di prae- “davanti” e fĕrre “portare”, con cambio di coniug., cfr. fr. préférer."
 consentire,545,consentire,,,,,,"av. 1257; dal lat. consentīre, comp. di con- “assieme, con” e sentīre “1sentire, ritenere”."
 girare,545,gyrare,,,,,,"av. 1250; lat. tardo gȳrāre, v. anche giro."
 iniziare,543,initiare,,,,,,"1304-08; dal lat. inĭtĭāre, v. anche inizio."
-raccogliere,543,,,,later formation,,,"av. 1292; der. di cogliere con ra-."
+raccogliere,543,,,,later formation,,,av. 1292; der. di cogliere con ra-.
 confermare,542,confirmare,,,,,,"sec. XIII; lat. confĭrmāre, comp. di con- “assieme, con” e firmāre “rendere stabile”, der. di firmus “fermo, stabile”."
-salire,541,salire,,,,,,"in. XIII sec.; lat. salīre “saltare”."
-colpire,540,,,,later formation,,,"sec. XIII; der. di colpo con -ire."
+salire,541,salire,,,,,,in. XIII sec.; lat. salīre “saltare”.
+colpire,540,,,,later formation,,,sec. XIII; der. di colpo con -ire.
 produrre,536,producere,,,,,,"ca. 1224; lat. prodūcĕre, comp. di pro- “davanti, fuori” e ducĕre “condurre”."
-preparare,531,praeparare,,,,,,"1348-53; dal lat. praepărāre."
-svolgere,529,,,,later formation,,,"av. 1374; der. di volgere con s-."
+preparare,531,praeparare,,,,,,1348-53; dal lat. praepărāre.
+svolgere,529,,,,later formation,,,av. 1374; der. di volgere con s-.
 riconoscere,527,recognoscere,,,,,,"fine XII sec; dal lat. recognōscĕre, v. anche conoscere."
-ritrovare,526,,,,later formation,,,"av. 1292; der. di 1trovare con ri-."
+ritrovare,526,,,,later formation,,,av. 1292; der. di 1trovare con ri-.
 concludere,524,concludere,,,,,,"av. 1257; dal lat. conclūdĕre, comp. di con- “assieme, con” e claudĕre “chiudere”."
 ritenere,521,retinere,,,,,,"av. 1276; lat. retĭnēre, v. anche tenere."
-crescere,520,crescere,,,,crescere,CRESCERE,"1ª metà XII sec; lat. crēscĕre."
+crescere,520,crescere,,,,crescere,CRESCERE,1ª metà XII sec; lat. crēscĕre.
 ripetere,520,repetere,,,,,,"1313-19; dal lat. repĕtĕre propr. “domandare di nuovo”, comp. di re- con valore iter. e petĕre “chiedere, domandare”."
 riprendere,520,reprehendere,,,,,,"1ª metà XIII sec; dal lat. reprehĕndĕre, v. anche prendere."
-valere,517,ualere,,,,ualere,UALERE,"1219 nell'accez. 2b; dal lat. valēre."
+valere,517,ualere,,,,ualere,UALERE,1219 nell'accez. 2b; dal lat. valēre.
 dimenticare,511,dementicare,,,,,,"2ª metà XIII sec; dal lat. tardo demĕntĭcāre, v. anche mente."
 significare,508,significare,,,,,,"av. 1292 nell'accez. 4; dal lat. signĭfĭcāre, der. di signum “segno”."
 battere,507,battere,,,,,,"fine XIII sec; lat. tardo battĕre, var. di battuĕre, di orig. sconosciuta."
 esprimere,505,exprimere,,,,,,"fine XIII sec; dal lat. exprĭmĕre, comp. di ex- “fuori” e premĕre “premere”."
 sposare,505,sponsare,,,,,,"av. 1250; lat. tardo spōnsāre “promettere in matrimonio”, intens. di spondēre “promettere”, v. anche sposo."
-rischiare,503,,,,,,,"av. 1348;"
+rischiare,503,,,,,,,av. 1348;
 mangiare,502,manger,French,,,,,"1158; dal fr. manger, dal lat. manducāre."
 tirare,499,*tirare,,,,,,"1295; dal lat. *tĭrāre, di orig. incerta."
 mostrare,497,monstrare,,,,,,"2ª metà XII sec; lat. mōnstrāre propr. “indicare la volontà degli dei”, der. di monstrum “segno”."
 muovere,497,mouere,,,with change of inflection class,,,"1219; lat. movēre, con cambio di coniug."
-togliere,495,tollere,,,,,,"2ª metà XIII sec; lat. tŏllĕre propr. “sollevare”."
+togliere,495,tollere,,,,,,2ª metà XIII sec; lat. tŏllĕre propr. “sollevare”.
 rivelare,493,reuelare,,,,,,"1304-08; dal lat. revēlāre, v. anche velo."
 contare,492,computare,,,,,,"2ª metà XII sec; lat. cŏmpŭtāre, comp. di con- “assieme, con” e putāre “calcolare”; nell’accez. 9 cfr. fr. compter."
 intendere,492,intendere,,,,,,"av. 1294 nell'accez. 7a; dal lat. intĕndĕre, v. anche tendere."
 nascondere,491,inabscondere,,,,,,"sec. XIII; lat. tardo inabscōndĕre, con aferesi, comp. di in- con valore raff. e abscondĕre “nascondere”."
 indicare,490,indicare,,,,,,"1598; dal lat. ĭndĭcāre, freq. di indicĕre “indire”."
-mantenere,490,manu tenere,,,,,,"av. 1250; loc. lat. manu tenēre “tenere con la mano”."
-porre,490,ponere,,,,ponere,PONERE,""
+mantenere,490,manu tenere,,,,,,av. 1250; loc. lat. manu tenēre “tenere con la mano”.
+porre,490,ponere,,,,ponere,PONERE,
 mandare,484,mandare,,,,,,"sec. XIII; dal lat. mandāre, dalla loc. in manum dare “dare in mano, affidare”."
 vendere,482,uendere,,,,uendere,UENDERE,"1279; lat. vēndĕre, dalla loc. venum dāre “dare in vendita”."
 compiere,478,complere,,,with change of inflection class,,,"2ª metà XII sec; lat. complēre, comp. di con- “assieme, con” e della radice di plenus “pieno”, con cambio di coniug."
@@ -169,14 +169,14 @@ rizultare,468,resultare,,,,,,"fine XIII sec. nell'accez. 8; dal lat. resŭltāre
 alzare,465,*altiare,,,,,,"av. 1294; lat. *altĭāre, der. di altus “alto”."
 partecipare,462,participare,,,,,,"1306; dal lat. partĭcĭpāre, comp. di pars “parte” e capĕre “prendere”."
 accompagnare,460,,,,later formation,,,"1293-94; der. di compagno con 1ad- e 1-are, cfr. fr. ant. accompagner."
-giungere,459,iungere,,,,,,"av. 1250; dal lat. iŭngĕre."
+giungere,459,iungere,,,,,,av. 1250; dal lat. iŭngĕre.
 utilizzare,453,,,,later formation,,,"av. 1712; der. di utile con -izzare, cfr. fr. utiliser."
 ammettere,443,admittere,,,,,,"av. 1306; dal lat. admĭttĕre, v. anche mettere."
 difendere,442,defendere,,,,,,"1ª metà XIII sec; lat. defĕndĕre, comp. di de- “via da” e fendĕre “colpire”."
 condurre,440,conducere,,,,conducere,CONDUCERE,"sec. XII-XIII; lat. condūcĕre, comp. di con- “assieme, con” e ducĕre “guidare, condurre”."
 costituire,438,constituere,,,with change of inflection class,,,"av. 1294; dal lat. constitŭĕre, comp. di con- con valore perfettivo e statuĕre “stabilire”, con cambio di coniug."
 accusare,437,accusare,,,,,,"ca. 1080; dal lat. accūsāre, comp. di ad- “a, verso” e causa “causa”."
-invitare,428,inuitare,,,,,,"av. 1306; dal lat. invĭtāre."
+invitare,428,inuitare,,,,,,av. 1306; dal lat. invĭtāre.
 organizzare,427,organizare,,,,,,"sec. XIII nell'accez. 4; dal lat. mediev. organĭzāre, v. anche organo."
 osservare,427,obseruare,,,,,,"1219; dal lat. obsĕrvāre, comp. di ob- “2a, 4verso” e servāre “guardare”."
 imparare,426,*imparare,,,,,,"1313-19; lat. *impărāre, comp. di in- con valore raff. e parāre “procurare”."
@@ -189,9 +189,9 @@ richiedere,415,*requaerere,,,,,,"av. 1292; lat. *requaerĕre, v. anche chiedere.
 affidare,414,affidare,,,,,,"av. 1342; dal lat. mediev. affīdāre, der. del lat. fidus “fidato”."
 dirigere,411,dirigere,,,,,,"av. 1342; dal lat. dirĭgĕre, comp. di dis- “qua e là” e regĕre “reggere, guidare”."
 fornire,409,fournir,French,,,,,"sec. XIII; dal fr. fournir, dal franc. *frumjan “eseguire”."
-firmare,407,firmare,,,,,,"av. 1566; dal lat. firmāre “confermare”."
-puntare,404,,,,later formation,,,"sec. XIII; der. di 1punta o 1punto con 1-are."
-studiare,401,,,,later formation,,,"2ª metà XIII sec; der. di studio con 1-are."
+firmare,407,firmare,,,,,,av. 1566; dal lat. firmāre “confermare”.
+puntare,404,,,,later formation,,,sec. XIII; der. di 1punta o 1punto con 1-are.
+studiare,401,,,,later formation,,,2ª metà XIII sec; der. di studio con 1-are.
 pubblicare,399,publicare,,,,,,"1ª metà XIII sec; dal lat. pūblĭcāre, v. anche pubblico."
 attendere,398,attendere,,,,,,"av. 1257; lat. attĕndĕre “rivolgere l’animo a”, v. anche tendere."
 spingere,393,expingere,,,,,,"in. XIII sec.; lat. *expĭngĕre, comp. di ex- “fuori da” e pangĕre “ficcare”, v. anche spegnere."
@@ -200,15 +200,15 @@ segnare,386,signare,,,,,,"sec. XIII; lat. sĭgnāre, v. anche segno."
 assicurare,385,assecurare,,,,,,"1ª metà XIII sec. nell'accez. 4a; lat. *assecūrāre, der. di securus “sicuro”."
 occorrere,383,occurrere,,,,,,"av. 1342 nell'accez. 2; dal lat. occŭrrĕre “farsi incontro, presentarsi”, v. anche correre."
 tagliare,379,taliare,,,,,,"av. 1250; lat. tardo talĭāre, der. di talia, var. di talea “1talea”."
-avvicinare,378,,,,later formation,,,"av. 1313-19; der. di vicino con 1ad- e 1-are."
-guidare,374,*widam,Gothic,,,,,"2ª metà XIII sec; dal got. *widam."
+avvicinare,378,,,,later formation,,,av. 1313-19; der. di vicino con 1ad- e 1-are.
+guidare,374,*widam,Gothic,,,,,2ª metà XIII sec; dal got. *widam.
 assumere,373,adsumere,,,,,,"av. 1321; dal lat. adsūmĕre, comp. di ad- “a, verso” e sumĕre “prendere”."
 garantire,372,,,,later formation,,,"1664; der. di garante con -ire, cfr. fr. garantir."
 destinare,368,destinare,,,,,,"2ª metà XII sec; dal lat. destināre, comp. di de- con valore raff. e *stanāre “fermare”."
-dormire,368,dormire,,,,dormire,DORMIRE,"1ª metà XIII sec; lat. dŏrmīre."
-legare,368,ligare,,,,,,"sec. XIII; lat. lĭgāre."
+dormire,368,dormire,,,,dormire,DORMIRE,1ª metà XIII sec; lat. dŏrmīre.
+legare,368,ligare,,,,,,sec. XIII; lat. lĭgāre.
 controllare,366,,,,later formation,,,"1779; der. di controllo con 1-are, cfr. fr. contrôler; nell’accez. 2a cfr. ingl. (to) control."
-fissare,365,,,,later formation,,,"av. 1375; der. di fisso con 1-are."
+fissare,365,,,,later formation,,,av. 1375; der. di fisso con 1-are.
 ridere,365,ridere,,,,,,"av. 1292; lat. tardo ridĕre, var. di ridēre."
 intervenire,364,interuenire,,,,,,"av. 1293; dal lat. intervĕnīre, v. anche 1venire."
 costare,363,constare,,,,,,"av. 1236; lat. cŏnstāre, comp. di con- “assieme con” e stāre “stare”."
@@ -217,7 +217,7 @@ convincere,356,conuincere,,,,,,"1304-08; dal lat. convĭncĕre, v. anche vincere
 immaginare,353,imaginare,,,,,,"av. 1294; dal lat. imagĭnāri, imagināre, v. anche immagine, cfr. gr. phantázō."
 sorridere,352,subridere,,,with change of inflection class,,,"ca. 1250; lat. subrīdēre, con cambio di coniug., v. anche ridere; nell’accez. 1c cfr. fr. sourire."
 acquistare,346,*acquisitare,,,,,,"1ª metà XIII sec. nell'accez. 1b; lat. *acquīsitāre, der. di acquisitus, p.pass. di acquirĕre “acquistare”."
-sottolineare,346,,,,later formation,,,"1873; der. di linea con sotto- e 1-are; nell’accez. 2a cfr. fr. souligner."
+sottolineare,346,,,,later formation,,,1873; der. di linea con sotto- e 1-are; nell’accez. 2a cfr. fr. souligner.
 votare,346,*uotare,,,,,,"sec. XIV; lat. *vōtāre, der. di vovēre “offrire in voto”, v. anche 1voto."
 comprare,345,comparare,,,,,,"1ª metà XIII sec; lat. cŏmparăre “procurare, raccogliere”, comp. di con- “assieme, con” e parāre “preparare”."
 contenere,345,continere,,,,,,"960; lat. contĭnēre, v. anche tenere."
@@ -229,18 +229,18 @@ durare,335,durare,,,,,,"av. 1257 nell'accez. 4; lat. dūrāre, di orig. incerta.
 subire,335,subire,,,,,,"av. 1557; dal lat. subīre, comp. di sub- “sotto” e īre “1andare”, cfr. fr. subir."
 notare,334,notare,,,,,,"1314; dal lat. nŏtāre, v. anche nota."
 soffrire,334,sufferre,,,,,,"fine XII sec; lat. *sŭffĕrīre, var. di suffĕrre, comp. di sub- “sotto” e fĕrre “portare”."
-temere,334,timere,,,,,,"sec. XIII; lat. tĭmēre."
+temere,334,timere,,,,,,sec. XIII; lat. tĭmēre.
 discutere,333,discutere,,,,,,"av. 1364; dal lat. discŭtĕre propr. “staccare scuotendo”, comp. di dis- “qua e là” e quatĕre “scuotere”."
 rifiutare,333,refutare,,,,,,"fine XIII sec; lat. refutāre, comp. di re- “indietro” e *futāre “battere” con influsso di fiutare."
 giudicare,331,iudicare,,,,,,"av. 1294; dal lat. iūdĭcāre, comp. di ius “1diritto” e dicāre “dire”."
-sedere,331,sedere,,,,sedere,SEDERE,"av. 1182; lat. sĕdēre."
+sedere,331,sedere,,,,sedere,SEDERE,av. 1182; lat. sĕdēre.
 registrare,329,registrare,,,,,,"1313-19; dal lat. mediev. regĭstrāre, v. anche registro."
-accogliere,328,,,,later formation,,,"1250; der. di cogliere con 1ad-."
+accogliere,328,,,,later formation,,,1250; der. di cogliere con 1ad-.
 denunciare,327,denuntiare,,,,,,"1289; dal lat. denŭntĭāre, comp. di de- con valore perfettivo e nuntiāre “annunciare”; nell’accez. 3 cfr. fr. dénoncer."
 impedire,327,impedire,,,,,,"1305-06; lat. impĕdīre propr. “legare i piedi”, comp. di in- con valore raff. e pes, pedis “piede”."
 commentare,323,commentari,,,,,,"1304-08; dal lat. commĕntāri “riflettere” poi “commentare”, comp. di con- “assieme, con” e mens, mentis “intelligenza, senso”."
 promettere,323,promittere,,,,,,"1211; lat. promĭttĕre propr. “mandare avanti”, v. anche mettere."
-dividere,322,diuidere,,,,,,"av. 1250; dal lat. dīvĭdĕre."
+dividere,322,diuidere,,,,,,av. 1250; dal lat. dīvĭdĕre.
 conquistare,321,*conquistare,,,,,,"2ª metà XIII sec; lat. *conquīstāre, freq. di conquirĕre, v. anche conquidere."
 arrestare,319,adristare,,,,,,"av. 1310; dal lat. mediev. adrĭstāre, der. di restāre “fermarsi”."
 riferire,318,referre,,,with change of inflection class,,,"sec. XIV; dal lat. refĕrre, comp. di re- “indietro” e fĕrre “portare”, con cambio di coniug."
@@ -251,11 +251,11 @@ comportare,309,comportare,,,,,,"av. 1250; dal lat. comportāre “portare insiem
 scattare,309,*excaptare,,,,,,"av. 1712; lat. *excaptāre, comp. di ex- con valore intens. e captāre “prendere”."
 sparare,307,*exparare,,,,,,"ca. 1260; etim. incerta, forse lat. *exparāre, comp. di ex- con valore intens. e parāre “preparare”."
 avvertire,306,aduertere,,,,,,"sec. XIV; dal lat. advĕrtĕre, “volgere l’animo, la mente”."
-rientrare,306,,,,later formation,,,"av. 1348; der. di entrare con ri-."
+rientrare,306,,,,later formation,,,av. 1348; der. di entrare con ri-.
 abitare,305,habitare,,,,,,"1219; dal lat. habĭtāre propr. “tenere”, freq. di habēre “avere”."
 funzionare,301,,,,later formation,,,"1848; der. di funzione con 1-are, cfr. fr. fonctionner."
 curare,300,curare,,,,,,"ca. 1274; dal lat. cūrāre, v. anche cura."
-scomparire,300,,,,later formation,,,"1715 nell'accez. 3; der. di comparire con s-."
+scomparire,300,,,,later formation,,,1715 nell'accez. 3; der. di comparire con s-.
 assistere,299,adsistere,,,,,,"av. 1342; dal lat. adsĭstĕre, comp. di ad- “a, verso” e sistĕre “stare”."
 proseguire,299,prosequi,,,,,,"1304-08; dal lat. prosĕqui, v. anche seguire."
 gridare,298,*critare,,,,,,"2ª metà XII sec; lat. *crītāre, var. di quiritāre propr. “invocare l’aiuto dei cittadini”, der. di Quirites, nome dei cittadini romani in ambito civile."
@@ -263,35 +263,35 @@ bloccare,297,bloquer,French,,,,,"av. 1644 nell'accez. 3a; dal fr. bloquer, der. 
 capitare,297,capitare,,,,,,"1306 nell'accez. 3; lat. *capĭtāre, der. di caput, -itis “capo, testa”."
 cantare,293,cantare,,,,cantare,CANTARE,"2ª metà XII sec; lat. cantāre, freq. di canĕre."
 interpretare,293,interpretari,,,,,,"av. 1294; dal lat. intĕrprĕtāri, v. anche interprete."
-coinvolgere,292,,,,later formation,,,"av. 1911; der. di involgere con 1co-."
+coinvolgere,292,,,,later formation,,,av. 1911; der. di involgere con 1co-.
 consegnare,290,consignare,,,,,,"1397; lat. consĭgnāre “sigillare, sottoscrivere”, comp. di con- con valore perfettivo e signāre “contrassegnare”."
 sostituire,286,substituere,,,,,,"1332-37 nell'accez. 2; lat. substitŭĕre “porre sotto”, comp. di sub- “sotto” e statuĕre “collocare”."
-allontanare,285,,,,later formation,,,"ca. 1336; der. di lontano con 1ad- e 1-are."
-interessare,285,intéresser,French,,,,,"av. 1540; cfr. fr. intéresser."
-ritornare,284,,,,later formation,,,"fine XIII sec; der. di tornare con ri-."
+allontanare,285,,,,later formation,,,ca. 1336; der. di lontano con 1ad- e 1-are.
+interessare,285,intéresser,French,,,,,av. 1540; cfr. fr. intéresser.
+ritornare,284,,,,later formation,,,fine XIII sec; der. di tornare con ri-.
 saltare,284,saltare,,,,,,"av. 1294; lat. saltāre, intens. da salīre; nell’accez. 7 cfr. fr. sauter."
 trasferire,284,transferre,,,with change of inflection class,,,"1342; dal lat. transfĕrre, comp. di trans- “da un’altra parte” e fĕrre “portare”, con cambio di coniug."
 limitare,281,limitare,,,,,,"1304-08; dal lat. līmĭtāre, v. anche limite."
-sottoporre,278,,,,later formation,,,"fine XIII sec; der. di porre con sotto-."
+sottoporre,278,,,,later formation,,,fine XIII sec; der. di porre con sotto-.
 liberare,277,liberare,,,,,,"1304-08; dal lat. lībĕrāre, v. anche libero."
 conservare,276,conseruare,,,,,,"1304-08; dal lat. consĕrvāre, comp. di con- “assieme, con” e servāre “conservare, mantenere”."
-avviare,273,,,,later formation,,,"av. 1306; der. di via con 1a- e 1-are."
+avviare,273,,,,later formation,,,av. 1306; der. di via con 1a- e 1-are.
 coprire,273,cooperire,,,,,,"2ª metà XIII sec; lat. coŏpĕrīre, comp. di co- “assieme, con” e operīre “coprire”."
-precisare,273,préciser,French,,,,,"1670; cfr. fr. préciser."
+precisare,273,préciser,French,,,,,1670; cfr. fr. préciser.
 trascorrere,273,transcurrere,,,,,,"1313-19 nell'accez. 2a; dal lat. transcŭrrĕre, v. anche correre."
-stringere,272,stringere,,,,stringere,STRINGERE,"2ª metà XIII sec; lat. strĭngĕre."
+stringere,272,stringere,,,,stringere,STRINGERE,2ª metà XIII sec; lat. strĭngĕre.
 disporre,271,disponere,,,,,,"2ª metà XIII sec; lat. dispōnĕre, v. anche porre."
 insegnare,270,insignare,,,,,,"sec. XIII; lat. tardo insĭgnāre propr. “imprimere un segno”, v. anche segnare."
 gettare,268,*iectare,,,,,,"2ª metà XIII sec; lat. *iĕctāre, var. di iactāre, intens. di iacĕre “lanciare”."
 rispettare,268,respectare,,,,,,"2ª metà XIII sec; lat. *iĕctāre, var. di iactāre, intens. di iacĕre “lanciare”."
 unire,268,unire,,,,,,"av. 1306; dal lat. unīre, v. anche uno."
-attraversare,264,,,,later formation,,,"av. 1313; der. di attraverso con 1-are."
+attraversare,264,,,,later formation,,,av. 1313; der. di attraverso con 1-are.
 frequentare,264,frequentare,,,,,,"sec. XIII; dal lat. frequĕntāre, v. anche frequente."
 procedere,264,procedere,,,,,,"2ª metà XII sec; dal lat. procēdĕre, comp. di pro- “avanti” e cēdĕre “1avanzare”."
 dipendere,263,*dependere,,,,,,"1304-08; lat. *depĕndĕre, var. di dependēre propr. “pendere in giù”, v. anche pendere."
-attaccare,262,,,,later formation,,,"av. 1294; der. di taccare con 1ad-."
-piangere,262,plangere,,,,,,"av. 1250; lat. plangĕre propr. “battersi il petto”."
-sbagliare,261,,,,,,,"1666; prob. da abbagliare con sovrapp. di s-."
+attaccare,262,,,,later formation,,,av. 1294; der. di taccare con 1ad-.
+piangere,262,plangere,,,,,,av. 1250; lat. plangĕre propr. “battersi il petto”.
+sbagliare,261,,,,,,,1666; prob. da abbagliare con sovrapp. di s-.
 inviare,260,inuiare,,,,,,"av. 1294; dal lat. invĭāre “percorrere una strada”, v. anche via."
 domandare,259,demandare,,,,,,"1219; lat. demandāre “affidare, raccomandare”, comp. di de- con valore raff. e mandāre “mandare”."
 buttare,258,bouter,French,,,,,"av. 1313; dal fr. bouter “colpire; gettare; germinare”, dal franc. *bōtan “colpire”."
