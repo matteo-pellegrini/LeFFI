@@ -1,4 +1,4 @@
-Data set name: 
+Data set name: LeFFI
 
 Citation (if available): Pellegrini, M. & Cignarella, A. T. (2023). LeFFI 2.0. Online.
 
