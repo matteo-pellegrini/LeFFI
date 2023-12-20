@@ -53,6 +53,7 @@ The dataset is self-contained.
 
 The lexemes are the ones with frequency of 5 or more in the COLFIS frequency lexicon (https://linguistica.sns.it/CoLFIS/Home.htm).
 The forms were extracted for the GLAFF-IT lexicon (http://redac.univ-tlse2.fr/lexiques/glaffit.html) and then underwent a process of manual correction, mostly regarding stress placement.
+The feature-value specifications for sounds are based on Kramer (2009) *The Phonology of Italian*, with some adaptations, mostly to account for the sounds that are present in this database but not in Kramer's account -- e.g., ɱ and ŋ.
 
 **How were paradigms separated between lexemes (eg. in the case of homonyms or variants) ? What theoretical or practical choices were made ?**
 
