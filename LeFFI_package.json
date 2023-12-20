@@ -1,0 +1,477 @@
+{
+  "title": "LeFFI",
+  "profile": "data-package",
+  "licenses": [
+    {
+      "name": "CC BY-SA 4.0 DEED",
+      "title": "Creative Commons Attribution-ShareAlike 4.0 International",
+      "path": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Matteo Pellegrini",
+      "role": "author"
+    },
+    {
+      "title": "Alessandra T. Cignarella",
+      "role": "author"
+    }
+  ],
+  "keywords": [
+    "Italian",
+    "verbs",
+    "paradigms",
+    "cells"
+  ],
+  "version": "2.0",
+  "resources": [
+    {
+      "name": "forms",
+      "type": "table",
+      "title": "Inflected forms",
+      "path": "LeFFI_forms.csv",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "name": "forms-schema",
+        "fields": [
+          {
+            "name": "form_id",
+            "type": "string",
+            "title": "Form table row identifiers",
+            "description": "These identifiers are specific to form, lexeme, cell triples.",
+            "constraints": {
+              "required": true,
+              "unique": true
+            }
+          },
+          {
+            "name": "lexeme",
+            "type": "string",
+            "title": "Reference to a lexeme identifier",
+            "description": "Lexeme identifiers must be unique to paradigms.",
+            "constraints": {
+              "required": true
+            },
+            "rdfProperty": "https://www.paralex-standard.org/paralex_ontology.xml#lexeme"
+          },
+          {
+            "name": "cell",
+            "type": "string",
+            "title": "Reference to a cell identifier",
+            "description": "The set of feature values as would appear in a gloss, separated by dots, eg. prs.ind.1sg or f.pl",
+            "constraints": {
+              "required": true
+            },
+            "rdfProperty": "https://www.paralex-standard.org/paralex_ontology.xml#cell"
+          },
+          {
+            "name": "phon_form",
+            "type": "string",
+            "title": "Inflected form (phonemic or phonetic)",
+            "description": "The form, given in phonemic or phonetic notation, with sounds separated by spaces",
+            "missingValues": [
+              "#DEF#"
+            ],
+            "constraints": {
+              "pattern": "((')*(dʒ|dz|tʃ|ts|b|d|g|v|m|ɱ|n|ɲ|ŋ|l|ʎ|r|ʒ|z|p|t|k|f|ʃ|s|j|w|a|e|i|o|u)(')*)( ((')*(dʒ|dz|tʃ|ts|b|d|g|v|m|ɱ|n|ɲ|ŋ|l|ʎ|r|ʒ|z|p|t|k|f|ʃ|s|j|w|a|e|i|o|u)(')*))*"
+            },
+            "rdfProperty": "https://www.paralex-standard.org/paralex_ontology.xml#phon_form"
+          }
+        ],
+        "primaryKey": [
+          "form_id"
+        ],
+        "foreignKeys": [
+          {
+            "fields": [
+              "cell"
+            ],
+            "reference": {
+              "resource": "cells",
+              "fields": [
+                "cell_id"
+              ]
+            }
+          },
+          {
+            "fields": [
+              "lexeme"
+            ],
+            "reference": {
+              "resource": "lexemes",
+              "fields": [
+                "lexeme_id"
+              ]
+            }
+          }
+        ]
+      },
+      "rdfType": "https://www.paralex-standard.org/paralex_ontology.xml#Form"
+    },
+    {
+      "name": "cells",
+      "type": "table",
+      "title": "Paradigm cells",
+      "path": "LeFFI_cells.csv",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "name": "cells-schema",
+        "fields": [
+          {
+            "name": "cell_id",
+            "type": "string",
+            "title": "Cell identifier",
+            "description": "The set of feature values as would appear in a gloss, separated by dots, eg. prs.ind.1sg or f.pl",
+            "constraints": {
+              "required": true,
+              "unique": true,
+              "pattern": "(pret|iprf|sbjv|cond|ptcp|prs|pst|fut|ind|imp|inf|ger|sg|pl|1|2|3|m|f)(\\.(pret|iprf|sbjv|cond|ptcp|prs|pst|fut|ind|imp|inf|ger|sg|pl|1|2|3|m|f))*"
+            }
+          },
+          {
+            "name": "unimorph",
+            "type": "string",
+            "title": "Cell in unimorph format",
+            "description": "The cell, written following the unimorph schema",
+            "rdfProperty": "https://www.paralex-standard.org/paralex_ontology.xml#unimorph"
+          }
+        ],
+        "primaryKey": [
+          "cell_id"
+        ],
+        "foreignKeys": []
+      },
+      "rdfType": "https://www.paralex-standard.org/paralex_ontology.xml#Cell"
+    },
+    {
+      "name": "features-values",
+      "type": "table",
+      "title": "Grammatical features values",
+      "path": "LeFFI_features-values.csv",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "name": "features-values-schema",
+        "fields": [
+          {
+            "name": "value_id",
+            "type": "string",
+            "title": "Grammatical Feature value identifier",
+            "description": "Identifier for the grammatical feature value (as found in the cell)",
+            "constraints": {
+              "required": true,
+              "unique": true
+            }
+          },
+          {
+            "name": "label",
+            "type": "string",
+            "title": "label for this row",
+            "description": "A human readable label for the row.",
+            "rdfProperty": "http://www.w3.org/2000/01/rdf-schema#label"
+          },
+          {
+            "name": "feature",
+            "type": "string",
+            "title": "feature",
+            "description": "The name of the dimension of this feature, eg. case, tense, modality, voice, force, gender, evidentiality, person, number, polarity...",
+            "constraints": {
+              "required": true
+            },
+            "rdfProperty": "https://www.paralex-standard.org/paralex_ontology.xml#feature"
+          }
+        ],
+        "primaryKey": [
+          "value_id"
+        ]
+      },
+      "rdfType": "https://www.paralex-standard.org/paralex_ontology.xml#FeatureValue"
+    },
+    {
+      "name": "sounds",
+      "type": "table",
+      "title": "Sound inventory with distinctive features",
+      "path": "LeFFI_sounds.csv",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "name": "sounds-schema",
+        "fields": [
+          {
+            "name": "sound_id",
+            "type": "string",
+            "title": "sound representation",
+            "description": "These identifiers are specific to sounds.",
+            "constraints": {
+              "required": true,
+              "unique": true
+            }
+          },
+          {
+            "name": "tier",
+            "type": "string",
+            "title": "Tier to which the feature pertains",
+            "description": "Tier to which the feature pertains",
+            "trueValues": [
+              "1"
+            ],
+            "falseValues": [
+              "0"
+            ]
+          },
+          {
+            "name": "value",
+            "type": "string",
+            "title": "Value of the feature",
+            "description": "Value of the feature for non segmental tiers",
+            "trueValues": [
+              "1"
+            ],
+            "falseValues": [
+              "0"
+            ]
+          },
+          {
+            "name": "close_consonantal",
+            "type": "boolean",
+            "title": "Whether the sound displays the feature [close_consonantal]",
+            "description": "Binary feature (1/0) indicating whether the segment displays the feature [close_consonantal]",
+            "trueValues": [
+              "1"
+            ],
+            "falseValues": [
+              "0"
+            ]
+          },
+          {
+            "name": "open",
+            "type": "boolean",
+            "title": "Whether the sound displays the feature [open]",
+            "description": "Binary feature (1/0) indicating whether the segment displays the feature [open]",
+            "trueValues": [
+              "1"
+            ],
+            "falseValues": [
+              "0"
+            ]
+          },
+          {
+            "name": "labial_consonantal",
+            "type": "boolean",
+            "title": "Whether the sound displays the feature [labial_consonantal]",
+            "description": "Binary feature (1/0) indicating whether the segment displays the feature [labial_consonantal]",
+            "trueValues": [
+              "1"
+            ],
+            "falseValues": [
+              "0"
+            ]
+          },
+          {
+            "name": "labiodental",
+            "type": "boolean",
+            "title": "Whether the sound displays the feature [labiodental]",
+            "description": "Binary feature (1/0) indicating whether the segment displays the feature [labiodental]",
+            "trueValues": [
+              "1"
+            ],
+            "falseValues": [
+              "0"
+            ]
+          },
+          {
+            "name": "coronal_consonantal",
+            "type": "boolean",
+            "title": "Whether the sound displays the feature [coronal_consonantal]",
+            "description": "Binary feature (1/0) indicating whether the segment displays the feature [coronal_consonantal]",
+            "trueValues": [
+              "1"
+            ],
+            "falseValues": [
+              "0"
+            ]
+          },
+          {
+            "name": "dorsal_consonantal",
+            "type": "boolean",
+            "title": "Whether the sound displays the feature [dorsal_consonantal]",
+            "description": "Binary feature (1/0) indicating whether the segment displays the feature [dorsal_consonantal]",
+            "trueValues": [
+              "1"
+            ],
+            "falseValues": [
+              "0"
+            ]
+          },
+          {
+            "name": "back",
+            "type": "boolean",
+            "title": "Whether the sound displays the feature [back]",
+            "description": "Binary feature (1/0) indicating whether the segment displays the feature [back]",
+            "trueValues": [
+              "1"
+            ],
+            "falseValues": [
+              "0"
+            ]
+          },
+          {
+            "name": "close_vocalic_1",
+            "type": "boolean",
+            "title": "Whether the sound displays the feature [close_vocalic_1]",
+            "description": "Binary feature (1/0) indicating whether the segment displays the feature [close_vocalic_1]",
+            "trueValues": [
+              "1"
+            ],
+            "falseValues": [
+              "0"
+            ]
+          },
+          {
+            "name": "close_vocalic_2",
+            "type": "boolean",
+            "title": "Whether the sound displays the feature [close_vocalic_2]",
+            "description": "Binary feature (1/0) indicating whether the segment displays the feature [close_vocalic_2]",
+            "trueValues": [
+              "1"
+            ],
+            "falseValues": [
+              "0"
+            ]
+          },
+          {
+            "name": "labial_vocalic",
+            "type": "boolean",
+            "title": "Whether the sound displays the feature [labial_vocalic]",
+            "description": "Binary feature (1/0) indicating whether the segment displays the feature [labial_vocalic]",
+            "trueValues": [
+              "1"
+            ],
+            "falseValues": [
+              "0"
+            ]
+          },
+          {
+            "name": "coronal_vocalic",
+            "type": "boolean",
+            "title": "Whether the sound displays the feature [coronal_vocalic]",
+            "description": "Binary feature (1/0) indicating whether the segment displays the feature [coronal_vocalic]",
+            "trueValues": [
+              "1"
+            ],
+            "falseValues": [
+              "0"
+            ]
+          },
+          {
+            "name": "dorsal_vocalic",
+            "type": "boolean",
+            "title": "Whether the sound displays the feature [dorsal_vocalic]",
+            "description": "Binary feature (1/0) indicating whether the segment displays the feature [dorsal_vocalic]",
+            "trueValues": [
+              "1"
+            ],
+            "falseValues": [
+              "0"
+            ]
+          },
+          {
+            "name": "nasal",
+            "type": "boolean",
+            "title": "Whether the sound displays the feature [nasal]",
+            "description": "Binary feature (1/0) indicating whether the segment displays the feature [nasal]",
+            "trueValues": [
+              "1"
+            ],
+            "falseValues": [
+              "0"
+            ]
+          },
+          {
+            "name": "lateral",
+            "type": "boolean",
+            "title": "Whether the sound displays the feature [lateral]",
+            "description": "Binary feature (1/0) indicating whether the segment displays the feature [lateral]",
+            "trueValues": [
+              "1"
+            ],
+            "falseValues": [
+              "0"
+            ]
+          },
+          {
+            "name": "voice",
+            "type": "boolean",
+            "title": "Whether the sound displays the feature [voice]",
+            "description": "Binary feature (1/0) indicating whether the segment displays the feature [voice]",
+            "trueValues": [
+              "1"
+            ],
+            "falseValues": [
+              "0"
+            ]
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": [
+          "sound_id"
+        ]
+      },
+      "rdfType": "https://www.paralex-standard.org/paralex_ontology.xml#Sound"
+    },
+    {
+      "name": "lexemes",
+      "type": "table",
+      "title": "Lexemes",
+      "path": "LeFFI_lexemes.csv",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "name": "lexemes-schema",
+        "fields": [
+          {
+            "name": "lexeme_id",
+            "type": "string",
+            "title": "Identifier for the lexeme",
+            "description": "Lexeme identifiers. Often, they are identical to the label (lemma). However, they must be unique to paradigms, distinguishing homonyms with different inflection. For example, the animal mouse/mice and the computer peripheric mouse/mouses would both have the label 'mouse' but could be identified by the lexeme identifiers mouse_1 and mouse_2.",
+            "constraints": {
+              "required": true,
+              "unique": true
+            }
+          },
+          {
+            "name": "frequency",
+            "type": "number",
+            "title": "Frequency",
+            "description": "Frequency for this row.",
+            "rdfProperty": "https://www.paralex-standard.org/paralex_ontology.xml#frequency"
+          }
+        ],
+        "primaryKey": [
+          "lexeme_id"
+        ],
+        "foreignKeys": [],
+        "foreignKey": []
+      },
+      "rdfType": "https://www.paralex-standard.org/paralex_ontology.xml#Lexeme"
+    }
+  ],
+  "citation": "Pellegrini, M. & Cignarella, A. T. (2023). LeFFI 2.0. Online.",
+  "id": "?",
+  "basepath": "C:\\Users\\matteo.pellegrini\\OneDrive - Università Cattolica del Sacro Cuore\\Desktop\\lavoro\\GitHub repo\\LeFFI"
+}
