@@ -73,7 +73,7 @@ Only the dataset authors were involved in the data generation process.
 **Over what timeframe was the data collected?** Does this timeframe match the creation timeframe of the data associated with the instances (for example, recent crawl of old news articles)? If not, please describe the timeframe in which the data associated with the instances was created.
 
 The work for the creation of this resource has been carried out in 2020.
-The data of this resource have been obtained from GLAFF-IT, as documented in Basilio Calderone, Matteo Pascoli, Nabil Hathout and Franck Sajous. 2017. Hybrid method for stress prediction applied to GLAFF-IT, a large-scale Italian lexicon. Proceedings of the Language, Data and Knowledge Conference (LDK 2017), Galway, Ireland..
+The data of this resource have been obtained from GLAFF-IT, as documented in Basilio Calderone, Matteo Pascoli, Nabil Hathout and Franck Sajous. 2017. Hybrid method for stress prediction applied to GLAFF-IT, a large-scale Italian lexicon. *Proceedings of the Language, Data and Knowledge Conference (LDK 2017), Galway, Ireland*.
 
 # Preprocessing/cleaning/labeling.
 
@@ -83,11 +83,11 @@ The frequencies have been obtained from the COLFIS frequency lexicon (https://li
 
 **How were the inflected forms obtained ?**  If generated, what was the generation process ? Is the software for generation available ?
 
-The forms were extracted for the GLAFF-IT lexicon (http://redac.univ-tlse2.fr/lexiques/glaffit.html). 
+The forms were extracted from the GLAFF-IT lexicon (http://redac.univ-tlse2.fr/lexiques/glaffit.html). 
 
 **How were the phonological or phonemic transcriptions obtained ?**  If generated, what was the generation process ? Is the software for generation available ?
 
-The phonetic transcriptions were extracted for the GLAFF-IT lexicon (http://redac.univ-tlse2.fr/lexiques/glaffit.html) and then underwent a process of manual correction, mostly regarding stress placement.
+The phonetic transcriptions were extracted from the GLAFF-IT lexicon (http://redac.univ-tlse2.fr/lexiques/glaffit.html) and then underwent a process of manual correction, mostly regarding stress placement.
 
 # Distribution.
 
