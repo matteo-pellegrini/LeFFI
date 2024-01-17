@@ -96,6 +96,8 @@ The phonetic transcriptions were extracted from the GLAFF-IT lexicon (http://red
 
 The dataset is released in this Zenodo repository as a set of .csv files following the Paralex standard format for paradigmatic lexicons.
 
+DOI: http://doi.org/10.5281/zenodo.10522079
+
 **When will the dataset be distributed?**
 
 The dataset is already available.
