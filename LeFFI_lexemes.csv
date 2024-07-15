@@ -1,4 +1,4 @@
-lexeme,frequency,cognate_id,language_of_etymon,is_suppletive,cognacy_comment,Cognateset_ID_ODRVM,Etymon_in_ODRVM,etymon_DeMauro,etymon_Wiktionary
+lexeme_id,frequency,cognate_id,language_of_etymon,is_suppletive,cognacy_comment,Cognateset_ID_ODRVM,Etymon_in_ODRVM,etymon_DeMauro,etymon_Wiktionary
 essere,54838,esse/stare,Latin,1,through the variant *essere,esse~stare,ESSE / STARE,"1037-89; dal lat. *essere, da esse di orig. indoeuropea.","Inherited from Early Medieval Latin essere, from Latin esse. The past participle stato is from Latin stāre."
 fare,15702,facere,Latin,,,facere,FACERE,"1219; lat. facĕre, con influsso analogico di dare, stare nella coniug.","From Vulgar Latin *fare, form Latin facere, from Proto-Italic *fakiō, from Proto-Indo-European *dʰeh₁- (“to put, place, set”)."
 avere,11663,habere,Latin,,,habere,HABERE,1211; lat. habēre.,"From Latin habēre (“to have, hold, possess”), probably from a Proto-Italic *habēō or *haβēō, possibly ultimately from Proto-Indo-European *gʰh₁bʰ- (“to grab, to take”)."
