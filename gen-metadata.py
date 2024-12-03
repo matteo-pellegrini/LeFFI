@@ -1,7 +1,8 @@
 from paralex import paralex_factory
 
 package = paralex_factory("LeFFI",
-                          {
+                          {   "readme": {"path": "README.md"},
+                              "data_sheet": {"path": "data_sheet.md"},
                               "forms": {"path": "LeFFI_forms.csv",},
                               "cells": {"path": "LeFFI_cells.csv"},
                               "features-values": {"path": "LeFFI_features-values.csv"},
@@ -122,6 +123,8 @@ package = paralex_factory("LeFFI",
 						  {'title': 'Alessandra T. Cignarella', 'role': 'author'}],
                           licenses=[{'name': 'CC BY-SA 4.0 DEED',
                                      'title': 'Creative Commons Attribution-ShareAlike 4.0 International',
-                                     'path': 'https://creativecommons.org/licenses/by-sa/4.0/'}]
+                                     'path': 'https://creativecommons.org/licenses/by-sa/4.0/'}],
+                          languages_iso639=["ita"],
+                          name="leffi"
 )
 package.to_json("LeFFI_package.json")

@@ -1,4 +1,5 @@
 {
+  "name": "leffi",
   "title": "LeFFI",
   "profile": "data-package",
   "licenses": [
@@ -27,128 +28,15 @@
   "version": "2.0",
   "resources": [
     {
-      "name": "forms",
-      "type": "table",
-      "title": "Inflected forms",
-      "path": "LeFFI_forms.csv",
+      "name": "data_sheet",
+      "type": "text",
+      "title": "Data Sheet",
+      "description": "Data Sheet",
+      "path": "data_sheet.md",
       "scheme": "file",
-      "format": "csv",
-      "mediatype": "text/csv",
-      "encoding": "utf-8",
-      "schema": {
-        "name": "forms-schema",
-        "fields": [
-          {
-            "name": "form_id",
-            "type": "string",
-            "title": "Form table row identifiers",
-            "description": "These identifiers are specific to form, lexeme, cell triples.",
-            "constraints": {
-              "required": true,
-              "unique": true
-            }
-          },
-          {
-            "name": "lexeme",
-            "type": "string",
-            "title": "Reference to a lexeme identifier",
-            "description": "Lexeme identifiers must be unique to paradigms.",
-            "constraints": {
-              "required": true
-            },
-            "rdfProperty": "https://www.paralex-standard.org/paralex_ontology.xml#lexeme"
-          },
-          {
-            "name": "cell",
-            "type": "string",
-            "title": "Reference to a cell identifier",
-            "description": "The set of feature values as would appear in a gloss, separated by dots, eg. prs.ind.1sg or f.pl",
-            "constraints": {
-              "required": true
-            },
-            "rdfProperty": "https://www.paralex-standard.org/paralex_ontology.xml#cell"
-          },
-          {
-            "name": "phon_form",
-            "type": "string",
-            "title": "Inflected form (phonemic or phonetic)",
-            "description": "The form, given in phonemic or phonetic notation, with sounds separated by spaces",
-            "missingValues": [
-              "#DEF#"
-            ],
-            "constraints": {
-              "pattern": "((')*(dʒ|dz|tʃ|ts|b|d|g|v|m|ɱ|n|ɲ|ŋ|l|ʎ|r|ʒ|z|p|t|k|f|ʃ|s|j|w|a|e|i|o|u)(')*)( ((')*(dʒ|dz|tʃ|ts|b|d|g|v|m|ɱ|n|ɲ|ŋ|l|ʎ|r|ʒ|z|p|t|k|f|ʃ|s|j|w|a|e|i|o|u)(')*))*"
-            },
-            "rdfProperty": "https://www.paralex-standard.org/paralex_ontology.xml#phon_form"
-          }
-        ],
-        "primaryKey": [
-          "form_id"
-        ],
-        "foreignKeys": [
-          {
-            "fields": [
-              "cell"
-            ],
-            "reference": {
-              "resource": "cells",
-              "fields": [
-                "cell_id"
-              ]
-            }
-          },
-          {
-            "fields": [
-              "lexeme"
-            ],
-            "reference": {
-              "resource": "lexemes",
-              "fields": [
-                "lexeme_id"
-              ]
-            }
-          }
-        ]
-      },
-      "rdfType": "https://www.paralex-standard.org/paralex_ontology.xml#Form"
-    },
-    {
-      "name": "cells",
-      "type": "table",
-      "title": "Paradigm cells",
-      "path": "LeFFI_cells.csv",
-      "scheme": "file",
-      "format": "csv",
-      "mediatype": "text/csv",
-      "encoding": "utf-8",
-      "schema": {
-        "name": "cells-schema",
-        "fields": [
-          {
-            "name": "cell_id",
-            "type": "string",
-            "title": "Cell identifier",
-            "description": "The set of feature values as would appear in a gloss, separated by dots, eg. prs.ind.1sg or f.pl",
-            "constraints": {
-              "required": true,
-              "unique": true,
-              "pattern": "(pret|iprf|sbjv|cond|ptcp|prs|pst|fut|ind|imp|inf|ger|sg|pl|1|2|3|m|f)(\\.(pret|iprf|sbjv|cond|ptcp|prs|pst|fut|ind|imp|inf|ger|sg|pl|1|2|3|m|f))*"
-            }
-          },
-          {
-            "name": "unimorph",
-            "type": "string",
-            "title": "Cell in unimorph format",
-            "description": "The cell, written following the unimorph schema",
-            "rdfProperty": "https://www.paralex-standard.org/paralex_ontology.xml#unimorph"
-          }
-        ],
-        "primaryKey": [
-          "cell_id"
-        ],
-        "foreignKeys": []
-      },
-      "rdfType": "https://www.paralex-standard.org/paralex_ontology.xml#Cell"
+      "format": "md",
+      "mediatype": "text/markdown",
+      "encoding": "utf-8"
     },
     {
       "name": "features-values",
@@ -195,6 +83,92 @@
         ]
       },
       "rdfType": "https://www.paralex-standard.org/paralex_ontology.xml#FeatureValue"
+    },
+    {
+      "name": "readme",
+      "type": "text",
+      "title": "Read me",
+      "description": "Basic documentation",
+      "path": "README.md",
+      "scheme": "file",
+      "format": "md",
+      "mediatype": "text/markdown",
+      "encoding": "utf-8"
+    },
+    {
+      "name": "lexemes",
+      "type": "table",
+      "title": "Lexemes",
+      "path": "LeFFI_lexemes.csv",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "name": "lexemes-schema",
+        "fields": [
+          {
+            "name": "lexeme_id",
+            "type": "string",
+            "title": "Identifier for the lexeme",
+            "description": "Lexeme identifiers. Often, they are identical to the label (lemma). However, they must be unique to paradigms, distinguishing homonyms with different inflection. For example, the animal mouse/mice and the computer peripheric mouse/mouses would both have the label 'mouse' but could be identified by the lexeme identifiers mouse_1 and mouse_2.",
+            "constraints": {
+              "required": true,
+              "unique": true
+            }
+          },
+          {
+            "name": "frequency",
+            "type": "number",
+            "title": "Frequency",
+            "description": "Frequency for this row.",
+            "rdfProperty": "https://www.paralex-standard.org/paralex_ontology.xml#frequency"
+          }
+        ],
+        "primaryKey": [
+          "lexeme_id"
+        ],
+        "foreignKeys": []
+      },
+      "rdfType": "https://www.paralex-standard.org/paralex_ontology.xml#Lexeme"
+    },
+    {
+      "name": "cells",
+      "type": "table",
+      "title": "Paradigm cells",
+      "path": "LeFFI_cells.csv",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "name": "cells-schema",
+        "fields": [
+          {
+            "name": "cell_id",
+            "type": "string",
+            "title": "Cell identifier",
+            "description": "The set of feature values as would appear in a gloss, separated by dots, eg. prs.ind.1sg or f.pl",
+            "constraints": {
+              "required": true,
+              "unique": true,
+              "pattern": "(pret|iprf|sbjv|cond|ptcp|prs|pst|fut|ind|imp|inf|ger|sg|pl|1|2|3|m|f)(\\.(pret|iprf|sbjv|cond|ptcp|prs|pst|fut|ind|imp|inf|ger|sg|pl|1|2|3|m|f))*"
+            }
+          },
+          {
+            "name": "unimorph",
+            "type": "string",
+            "title": "Cell in unimorph format",
+            "description": "The cell, written following the unimorph schema",
+            "rdfProperty": "https://www.paralex-standard.org/paralex_ontology.xml#unimorph"
+          }
+        ],
+        "primaryKey": [
+          "cell_id"
+        ],
+        "foreignKeys": []
+      },
+      "rdfType": "https://www.paralex-standard.org/paralex_ontology.xml#Cell"
     },
     {
       "name": "sounds",
@@ -433,45 +407,96 @@
       "rdfType": "https://www.paralex-standard.org/paralex_ontology.xml#Sound"
     },
     {
-      "name": "lexemes",
+      "name": "forms",
       "type": "table",
-      "title": "Lexemes",
-      "path": "LeFFI_lexemes.csv",
+      "title": "Inflected forms",
+      "path": "LeFFI_forms.csv",
       "scheme": "file",
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
       "schema": {
-        "name": "lexemes-schema",
+        "name": "forms-schema",
         "fields": [
           {
-            "name": "lexeme_id",
+            "name": "form_id",
             "type": "string",
-            "title": "Identifier for the lexeme",
-            "description": "Lexeme identifiers. Often, they are identical to the label (lemma). However, they must be unique to paradigms, distinguishing homonyms with different inflection. For example, the animal mouse/mice and the computer peripheric mouse/mouses would both have the label 'mouse' but could be identified by the lexeme identifiers mouse_1 and mouse_2.",
+            "title": "Form table row identifiers",
+            "description": "These identifiers are specific to form, lexeme, cell triples.",
             "constraints": {
               "required": true,
               "unique": true
             }
           },
           {
-            "name": "frequency",
-            "type": "number",
-            "title": "Frequency",
-            "description": "Frequency for this row.",
-            "rdfProperty": "https://www.paralex-standard.org/paralex_ontology.xml#frequency"
+            "name": "lexeme",
+            "type": "string",
+            "title": "Reference to a lexeme identifier",
+            "description": "Lexeme identifiers must be unique to paradigms.",
+            "constraints": {
+              "required": true
+            },
+            "rdfProperty": "https://www.paralex-standard.org/paralex_ontology.xml#lexeme"
+          },
+          {
+            "name": "cell",
+            "type": "string",
+            "title": "Reference to a cell identifier",
+            "description": "The set of feature values as would appear in a gloss, separated by dots, eg. prs.ind.1sg or f.pl",
+            "constraints": {
+              "required": true
+            },
+            "rdfProperty": "https://www.paralex-standard.org/paralex_ontology.xml#cell"
+          },
+          {
+            "name": "phon_form",
+            "type": "string",
+            "title": "Inflected form (phonemic or phonetic)",
+            "description": "The form, given in phonemic or phonetic notation, with sounds separated by spaces",
+            "missingValues": [
+              "#DEF#"
+            ],
+            "constraints": {
+              "pattern": "((')*(dʒ|dz|tʃ|ts|b|d|g|v|m|ɱ|n|ɲ|ŋ|l|ʎ|r|ʒ|z|p|t|k|f|ʃ|s|j|w|a|e|i|o|u)(')*)( ((')*(dʒ|dz|tʃ|ts|b|d|g|v|m|ɱ|n|ɲ|ŋ|l|ʎ|r|ʒ|z|p|t|k|f|ʃ|s|j|w|a|e|i|o|u)(')*))*"
+            },
+            "rdfProperty": "https://www.paralex-standard.org/paralex_ontology.xml#phon_form"
           }
         ],
         "primaryKey": [
-          "lexeme_id"
+          "form_id"
         ],
-        "foreignKeys": [],
-        "foreignKey": []
+        "foreignKeys": [
+          {
+            "fields": [
+              "cell"
+            ],
+            "reference": {
+              "resource": "cells",
+              "fields": [
+                "cell_id"
+              ]
+            }
+          },
+          {
+            "fields": [
+              "lexeme"
+            ],
+            "reference": {
+              "resource": "lexemes",
+              "fields": [
+                "lexeme_id"
+              ]
+            }
+          }
+        ]
       },
-      "rdfType": "https://www.paralex-standard.org/paralex_ontology.xml#Lexeme"
+      "rdfType": "https://www.paralex-standard.org/paralex_ontology.xml#Form"
     }
   ],
   "citation": "Pellegrini, M. & Cignarella, A. T. (2023). LeFFI 2.0. Online.",
   "id": "http://doi.org/10.5281/zenodo.10522079",
-  "basepath": "C:\\Users\\matteo.pellegrini\\OneDrive - Università Cattolica del Sacro Cuore\\Desktop\\lavoro\\GitHub repo\\LeFFI"
+  "languages_iso639": [
+    "ita"
+  ],
+  "paralex-version": "2.2.1"
 }
