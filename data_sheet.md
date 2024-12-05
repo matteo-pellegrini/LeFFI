@@ -1,6 +1,6 @@
-Data set name: LeFFI
+Data set name: LeFFI 2.0.1
 
-Citation (if available): Pellegrini, M. & Cignarella, A. T. (2023). LeFFI 2.0. Online.
+Citation (if available): Pellegrini, M. & Cignarella, A. T. (2023). LeFFI 2.0.1. Online.
 
 Data set developers: Matteo Pellegrini, Alessandra T. Cignarella
 
