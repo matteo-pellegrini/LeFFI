@@ -1,0 +1,192 @@
+title: LeFFI
+profile: data-package
+licenses:
+- name: CC BY-SA 4.0 DEED
+  title: Creative Commons Attribution-ShareAlike 4.0 International
+  path: https://creativecommons.org/licenses/by-sa/4.0/
+contributors:
+- title: Matteo Pellegrini
+  role: author
+- title: Alessandra T. Cignarella
+  role: author
+keywords:
+- Italian
+- verbs
+- paradigms
+- cells
+version: '2.0'
+citation: Pellegrini, M. & Cignarella, A. T. (2023). LeFFI 2.0. Online.
+id: http://doi.org/10.5281/zenodo.10522079
+languages_iso639:
+- ita
+paralex-version: 2.2.1
+name: leffi
+files:
+  readme: 
+    path: "README.md"
+  data_sheet:
+    path: "data_sheet.md"
+  cells:
+    path: "LeFFI_cells.csv"
+  features-values:
+    path: "LeFFI_features-values.csv"
+  forms: 
+    path: "LeFFI_forms.csv"
+  lexemes:
+    path: "LeFFI_lexemes.csv"
+  sounds:
+    path: "LeFFI_sounds.csv"
+    schema:
+        name: sounds-schema
+        fields:
+            - name: tier
+              type: string
+              title: Tier to which the feature pertains
+              description: Tier to which the feature pertains
+              trueValues:
+              - '1'
+              falseValues:
+              - '0'
+            - name: value
+              type: string
+              title: Value of the feature
+              description: Value of the feature for non segmental tiers
+              trueValues:
+              - '1'
+              falseValues:
+              - '0'
+            - name: close_consonantal
+              type: boolean
+              title: Whether the sound displays the feature [close_consonantal]
+              description: Binary feature (1/0) indicating whether the segment displays the
+                feature [close_consonantal]
+              trueValues:
+              - '1'
+              falseValues:
+              - '0'
+            - name: open
+              type: boolean
+              title: Whether the sound displays the feature [open]
+              description: Binary feature (1/0) indicating whether the segment displays the
+                feature [open]
+              trueValues:
+              - '1'
+              falseValues:
+              - '0'
+            - name: labial_consonantal
+              type: boolean
+              title: Whether the sound displays the feature [labial_consonantal]
+              description: Binary feature (1/0) indicating whether the segment displays the
+                feature [labial_consonantal]
+              trueValues:
+              - '1'
+              falseValues:
+              - '0'
+            - name: labiodental
+              type: boolean
+              title: Whether the sound displays the feature [labiodental]
+              description: Binary feature (1/0) indicating whether the segment displays the
+                feature [labiodental]
+              trueValues:
+              - '1'
+              falseValues:
+              - '0'
+            - name: coronal_consonantal
+              type: boolean
+              title: Whether the sound displays the feature [coronal_consonantal]
+              description: Binary feature (1/0) indicating whether the segment displays the
+                feature [coronal_consonantal]
+              trueValues:
+              - '1'
+              falseValues:
+              - '0'
+            - name: dorsal_consonantal
+              type: boolean
+              title: Whether the sound displays the feature [dorsal_consonantal]
+              description: Binary feature (1/0) indicating whether the segment displays the
+                feature [dorsal_consonantal]
+              trueValues:
+              - '1'
+              falseValues:
+              - '0'
+            - name: back
+              type: boolean
+              title: Whether the sound displays the feature [back]
+              description: Binary feature (1/0) indicating whether the segment displays the
+                feature [back]
+              trueValues:
+              - '1'
+              falseValues:
+              - '0'
+            - name: close_vocalic_1
+              type: boolean
+              title: Whether the sound displays the feature [close_vocalic_1]
+              description: Binary feature (1/0) indicating whether the segment displays the
+                feature [close_vocalic_1]
+              trueValues:
+              - '1'
+              falseValues:
+              - '0'
+            - name: close_vocalic_2
+              type: boolean
+              title: Whether the sound displays the feature [close_vocalic_2]
+              description: Binary feature (1/0) indicating whether the segment displays the
+                feature [close_vocalic_2]
+              trueValues:
+              - '1'
+              falseValues:
+              - '0'
+            - name: labial_vocalic
+              type: boolean
+              title: Whether the sound displays the feature [labial_vocalic]
+              description: Binary feature (1/0) indicating whether the segment displays the
+                feature [labial_vocalic]
+              trueValues:
+              - '1'
+              falseValues:
+              - '0'
+            - name: coronal_vocalic
+              type: boolean
+              title: Whether the sound displays the feature [coronal_vocalic]
+              description: Binary feature (1/0) indicating whether the segment displays the
+                feature [coronal_vocalic]
+              trueValues:
+              - '1'
+              falseValues:
+              - '0'
+            - name: dorsal_vocalic
+              type: boolean
+              title: Whether the sound displays the feature [dorsal_vocalic]
+              description: Binary feature (1/0) indicating whether the segment displays the
+                feature [dorsal_vocalic]
+              trueValues:
+              - '1'
+              falseValues:
+              - '0'
+            - name: nasal
+              type: boolean
+              title: Whether the sound displays the feature [nasal]
+              description: Binary feature (1/0) indicating whether the segment displays the
+                feature [nasal]
+              trueValues:
+              - '1'
+              falseValues:
+              - '0'
+            - name: lateral
+              type: boolean
+              title: Whether the sound displays the feature [lateral]
+              description: Binary feature (1/0) indicating whether the segment displays the
+                feature [lateral]
+              trueValues:
+              - '1'
+              falseValues:
+              - '0'
+            - name: voice
+              type: boolean
+              title: Whether the sound displays the feature [voice]
+              description: Binary feature (1/0) indicating whether the segment displays the
+                feature [voice]
+              trueValues:
+              - '1'
+              falseValues:
+              - '0'
