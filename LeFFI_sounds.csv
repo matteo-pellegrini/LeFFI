@@ -1,5 +1,4 @@
-Seg.,consonantal,sonorant,approximant,voice,continuant,strident,nasal,lateral,labial,labiodental,coronal,anterior,dorsal,high,low,back,round,advanced tongue root,accent,front
-Seg.,cons,son,approx,voice,cont,strid,nas,lat,LAB,LABDENT,COR,anter,DOR,high,low,back,rnd,ATR,acc,front
+sound_id,consonantal,sonorant,approximant,voice,continuant,strident,nasal,lateral,labial,labiodental,coronal,anterior,dorsal,high,low,back,round,advanced tongue root,accent,front
 b,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,-1,-1,-1
 d,1,0,0,1,0,0,0,0,0,0,1,1,0,0,0,0,0,-1,-1,-1
 g,1,0,0,1,0,0,0,0,0,0,0,0,1,1,0,1,0,-1,-1,-1
